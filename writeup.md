@@ -149,7 +149,6 @@ KETSCH, FLETSCH, KNETSCH, PIETSCH, QUETSCH, SKETSCH, KNIETSCH, PLIETSCH, QUIETSC
 When searching shops in Switzerland containing these words, we can find one called `Dolmetsch AG` in Zürich, on Limmatquai Street. 
 https://www.google.fr/maps/place/Dolmetsch+AG/@47.3757964,8.5433349,20.5z/data=!4m6!3m5!1s0x479aa0a81b33fcb9:0x3c1f431f2ee5f917!8m2!3d47.3756737!4d8.5438018!16s%2Fg%2F1tf7r2td?hl=fr
 
-[//]: # TODO()
 Flag: **HEXA{limmatquai}**
 
 ### Tank Engine
