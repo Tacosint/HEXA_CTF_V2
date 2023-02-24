@@ -75,35 +75,35 @@ The **HEXA CTF V2** is an Online OSINT CTF organized between the 27th of January
 ## Team
 Tacosint was represented by Eldwiin, R0ck3t, Tab and Zmondy and ended up at the 1st place of the ranking against 115 other teams.
 
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image1.png)
 
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image78.png)
 
 
 # Write-up OSINT
 
 ## Challenges dependency map
 The unlocking order of the challenges provided by the organizer is the following:
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image23.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image76.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image61.png)
 
 ## Intro
 ### Welcome Back
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image80.png)
 
 The first challenge is to set the context. Nothing complicated here, just copy the flag: **HEXA{Briefing_OK}** 
 
 ## Action Man
 ### Hijacking
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image16.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image17.png)
 
 With the statement, we had a photo. All we had to do was to perform a reverse image search with Google Lens. This one tells us that it is the “Tribunal Judiciaire de Versailles”. The flag is **HEXA{Tribunal_Judiciaire_de_Versailles}**.
 
 ### Fast and Furious
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image31.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image111.png)
 For this challenge, we also had a photo. However, with Google Lens, it doesn't give us much. On the right side of the picture, there are signs for the place written in French. We can then search the place with Google Maps thanks to this. We arrive easily in the surroundings by searching "Meudon D57" on Maps. We look for an intersection near a tramway stop. We look at some intersections with the Street View mode and find this one corresponding to the picture we are looking for.
 
 https://www.google.fr/maps/@48.7802802,2.1907343,3a,75y,63.83h,85.23t/data=!3m6!1e1!3m4!1sSW--njUUkGWoZhYIAkL7Jg!2e0!7i16384!8i8192 
@@ -111,10 +111,10 @@ https://www.google.fr/maps/@48.7802802,2.1907343,3a,75y,63.83h,85.23t/data=!3m6!
 Flag: **HEXA{Avenue_du_capitaine_tarron}**.
 
 ###  Fly me to the moon 
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image43.png)
 
 A picture of the evidence found at the safehouse was provided with this challenge:
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image57.png)
 We can read on the paper on the left: 
 ```
 pictures + flight
@@ -136,8 +136,8 @@ It looks like they were heading from Paris to Payerne and the plane went back to
 Flag: **HEXA{Payerne}**
 
 ### Chocolate
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image19.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image77.png)
 
 We can see on the picture that there are tramway tracks in the picture and some shops called `[...]ETSCH` and `[...]alle Wo[...]`.
 
@@ -152,7 +152,7 @@ https://www.google.fr/maps/place/Dolmetsch+AG/@47.3757964,8.5433349,20.5z/data=!
 Flag: **HEXA{limmatquai}**
 
 ### Tank Engine
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image72.png)
 
 After searching multiple ways to get this information, we typed “direct train connections” in Google or DuckDuckGo. The first link points to https://direkt.bahn.guru/. 
 When you search direct connections from Zurich, we can find one yellow dot indicating 3h07 in the south of Switzerland: Cadenazzo.
@@ -160,31 +160,32 @@ When you search direct connections from Zurich, we can find one yellow dot indic
 Flag: **HEXA{Cadenazzo}**
 
 ### Bonbon
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image88.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image98.png)
 
 By analyzing the EXIF metadata of the picture provided with the challenge, we find GPS coordinates in Chania, Greece:
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image115.png)
 
 There are not many airports nearby but we can find an international one in Heraklion called “Níkos-Kazantzákis”, 142 km east by road.
 
 Flag: **HEXA{nikos_kazantzakis}**
 
 ### Sovereign City
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image97.png)
 In this challenge, the first question we asked ourselves is “What is a way, a node and a relation ?”. A quick search on Google with “way node relation number” let us know that OpenStreetMap elements use this kind of nomenclature. The help forum lets us know how to request for ways, nodes and relations. From this, the following links help us determine where they were:
 
 [//]: # (TODO)
-They arrived here: ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-They hide here:![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-They changed car here:![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-And they turned here: ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+They arrived here: ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image3.png)
+They hide here:![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image55.png)
+They changed car here:![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image44.png)
+And they turned here: ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image85.png)
 
 The neighborhood where they hide is Hougang (it is a little small on the screen, but it is more visible via the link). From the last turn they took and assuming that they stayed left after that one, we can see where they were going. They were going north of Singapore, to Johor Bahru.
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image67.png)
 So the flag is **HEXA{hougang_JohorBahru}**.
 
 ### Original
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image36.png)
 
 For this challenge, we began by thinking “what could be the main difference between a machine and a human?” The first one that came to our mind was that a machine does what it is supposed to do, without making mistakes, or if it made one mistake, it should be present in all the reports written by the machine. So in this case, a machine shouldn’t make any error writing the report (or always the same error) whereas a human could do one. Following this lead, we used the tool https://www.onlinecorrection.com/ to check each report to see if there was a mistake. 
 One report had a slight error (the placement of a coma) and another one had a real error: `For this crimes` instead of `For these crimes` (even my text editor is asking me if I am sure about the first sentence). This is typically the kind of little mistake a human would make. The concerned report was number 8.
@@ -195,7 +196,7 @@ So the flag is:  **HEXA{8}**
 This challenge was the one that had the most revamp during the CTF. Indeed, at first it had 5 tries allowed, and the text was a bit less explicit. We first thought we needed to find an OSM building but it turned out we were looking for a node with a building attribute. The perfect way to do this kind of search was to use overpass turbo which relies on the OpenStreetMap API.
 Before going on overpass turbo and kicking some queries in, we first need to figure out what this “zone 4” is. Luckily for us, we already did the Herbaceous challenge before. On the website, there was a kmz file which contained only a kml file with several zones. Zone 4 was in Malaysia, south of Kuala Terengganu.
 To open the KML file, either you can use the base app from your system (if it has any), or create a my map Google like this one: 
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image102.png)
 
 Going on overpass turbo, we start by drawing the zone we want to search in (using the  button on the left of the map).
 Now, it is time for us to create the query. First, we only searched for places of worship, and football fields, but it turned out not to be very effective. So using some tutorials on how to use this tool, we manage to create our own request:
@@ -227,8 +228,8 @@ out skel qt;
 
 
 The result gives us three points. However, the challenge specifies that the building is far from the sea (at least 3 km by feet). A little google map search let us see that only one building fits this description.
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image92.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image49.png)
 
 The flag is **HEXA{3975813161}**
 
@@ -240,37 +241,37 @@ In this challenge, the aim was to find the domain name of the company. The main 
 ### The lawyer
 
 The most famous social network where one writes where he went to school is LinkedIn. That’s where we started our research on this challenge. The only piece of information we had was the company our lawyer was from. Searching for “nelexat” show us 2 people. Initially, the first time we arrived here, there was only one, the one working in Zurich. The localization of the company would also help us identify which one was the one we were looking for.
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image8.png)
 
 This doesn’t help us a lot… However, by looking at the filters available, we can discover some interesting information.
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image71.png)
 
 To determine which school our target went to, we need to filter them one by one. Doing so, we can see that he went to King’s College London and to “Faculté de droit de l’université de Neuchâtel”. However, at this moment of the investigation, we can’t be sure which one of the 2 remaining schools he went to first. By trying them, the flag reveals himself: **HEXA{london}**
 
 ### Alias
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image100.png)
 
 This challenge was the last one we managed to resolve. For the record, we flagged it 22 seconds before the end of the CTF. From the previous challenge, we had the LinkedIn of the lawyer. However, we couldn’t access his profile. To be able to access his profile, we used intel we gathered from other challenges. From the herbaceous challenge, we know the lawyer’s initials (L. N.), and from the impersonator, we know that someone in the team is named Lian. It looks like our lawyer’s name might be Lian. By adding the filter “Lian” as a name in the LinkedIn search, it allows us to see the profile link and click on it.
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image28.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image47.png)
 On his profile, we can see a bunch of posts, however, one is more interesting for us than the others, because it contains a useful piece of information, his pseudonym: Nelexlian.
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image96.png)
 With his pseudonym, we can now search for a trading platform where this lawyer is giving his advice.
 We had already searched on google "trading platform social media" to get names of the main trading platforms with a social media aspect, where Lian can possibly share advice with other users.
 The one that stands out in many rankings was Etoro.
 We created a fake account on it and kept the website aside, until we found Lian's pseudonym and tried to search for "Nelexlian" in the eToro search bar. We found this account https://www.etoro.com/people/nelexlian. In the "About Nelexlian" part, we can find the flag **HEXA{nelexlian_is_rich}**.
 
 ### Trustworthy
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image59.png)
 
 This challenge was about a hidden email on the website. The statement here says that the email address is hidden. It could mean two things. Either the email address is hidden by the target for it not to be found, or the email is in a place the target wouldn’t think of. First, we tried to find some “hidden places” on the website. By going on any other pages than the home, we can see the website going to https and we can see that the certificate is from an unknown issuer. What could go wrong? We tried to go to page 404 of the website, which let us know the website is using Wordpress as a CMS, and that an article “Bonjour tout le monde !” was written by “admin4847”. At this moment I thought again about the HTTPS and the certificate thing. By clicking on the lock on the address bar, I looked at the certificate. As I started to suspect, the field email address of the certificate’s subject was filled. The flag was: **HEXA{mastermind_mastermind@proton.me}**
 
 ### Herbaceous
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image66.png)
 
 The last challenge gave us an email address. To find out for which services an email address is used, we decided to use the (famous) tool epieos. We also could have used holehe to do so. This tool lets us know that the email address mastermind_mastermind@proton.me has a google account. In addition to that, it also gives us the maps contribution link and the calendar link. The maps link shows that mastermind has left no reviews on google maps. However, the calendar link is much more interesting. Indeed, on the 16/12/2022, there is a meeting planned at 12pm. 
 
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image65.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image103.png)
 
 By clicking on more details, we can see the whole text which gives us an onion link: http://nvnomrsfvy3dcq25c5y2stgbptt4dcuiaidugy63zca2vc5vnhetaoad.onion/
 This kind of link can be opened with the TOR browser.
