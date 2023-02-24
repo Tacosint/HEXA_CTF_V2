@@ -97,13 +97,13 @@ The first challenge is to set the context. Nothing complicated here, just copy t
 ## Action Man
 ### Hijacking
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image16.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image17.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image17.jpg)
 
 With the statement, we had a photo. All we had to do was to perform a reverse image search with Google Lens. This one tells us that it is the “Tribunal Judiciaire de Versailles”. The flag is **HEXA{Tribunal_Judiciaire_de_Versailles}**.
 
 ### Fast and Furious
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image31.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image111.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image111.jpg)
 For this challenge, we also had a photo. However, with Google Lens, it doesn't give us much. On the right side of the picture, there are signs for the place written in French. We can then search the place with Google Maps thanks to this. We arrive easily in the surroundings by searching "Meudon D57" on Maps. We look for an intersection near a tramway stop. We look at some intersections with the Street View mode and find this one corresponding to the picture we are looking for.
 
 https://www.google.fr/maps/@48.7802802,2.1907343,3a,75y,63.83h,85.23t/data=!3m6!1e1!3m4!1sSW--njUUkGWoZhYIAkL7Jg!2e0!7i16384!8i8192 
@@ -161,7 +161,7 @@ Flag: **HEXA{Cadenazzo}**
 
 ### Bonbon
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image88.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image98.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image98.jpg)
 
 By analyzing the EXIF metadata of the picture provided with the challenge, we find GPS coordinates in Chania, Greece:
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image115.png)
@@ -255,7 +255,7 @@ This challenge was the last one we managed to resolve. For the record, we flagge
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image66.png)
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image103.png)
 On his profile, we can see a bunch of posts, however, one is more interesting for us than the others, because it contains a useful piece of information, his pseudonym: Nelexlian.
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image81.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image81.jpg)
 With his pseudonym, we can now search for a trading platform where this lawyer is giving his advice.
 We had already searched on google "trading platform social media" to get names of the main trading platforms with a social media aspect, where Lian can possibly share advice with other users.
 The one that stands out in many rankings was Etoro.
@@ -380,7 +380,7 @@ Flag: **HEXA{Chelsea}**
 
 ### Setup
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image58.png)
-![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image82.png)
+![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image82.jpg)
 This challenge is pretty simple, we just had to turn the image and do a search via Google Lens on the watch. We got “Montre Festina Homme Chrono Acier Cuir Bleu F20286/3”. 
 https://fr.shopping.rakuten.com/offer/buy/2425062830/montre-festina-homme-chrono-acier-cuir-bleu-f20286-3.html The flag is **HEXA{F20286/3}**.
 ![](https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image101.png)
