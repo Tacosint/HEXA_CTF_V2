@@ -20,7 +20,7 @@
         - [Sovereign City](#Sovereign-City)
         - [Original](#Original)
         - [Final countdown](#Final-countdown)
-    - [The Lawyer](#The Lawyer)
+    - [The Lawyer](#The-Lawyer)
         - [The law firm](#The-law-firm)
         - [The lawyer](#The-lawyer)
         - [Alias](#Alias)
