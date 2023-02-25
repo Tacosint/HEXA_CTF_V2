@@ -197,16 +197,16 @@ Google with “way node relation number” let us know that OpenStreetMap elemen
 forum lets us know how to request for ways, nodes and relations. From this, the following links help us determine where
 they were:
 
-They arrived here:  
+[They arrived here: ](https://www.openstreetmap.org/way/646940106#map=14/1.3254/104.0077) 
 <img src="https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image3.png" width="350" alt=""/>
 
-They hide here:  
+[They hide here:](https://www.openstreetmap.org/node/1803847939)  
 <img src="https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image55.png" width="350" alt=""/>
 
-They changed car here:  
+[They changed car here: ](https://www.openstreetmap.org/way/22762642#map=14/1.4332/103.7970) 
 <img src="https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image44.png" width="350" alt=""/>
 
-And they turned here:  
+[And they turned here: ](https://www.openstreetmap.org/relation/8810294#map=14/1.4161/103.7838) 
 <img src="https://raw.githubusercontent.com/Tacosint/HEXA_CTF_V2/master/images/image85.png" width="350" alt=""/>
 
 The neighborhood where they hide is Hougang (it is a little small on the screen, but it is more visible via the link).
